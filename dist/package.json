@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Brice Riemenschneider","email":"brice@titanspear.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/formattedTextDataAreaB47E019733B04383B9E1AF9E1425C85E.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"formattedTextDataArea","displayName":"Formatted Text and Data Area","guid":"formattedTextDataAreaB47E019733B04383B9E1AF9E1425C85E","visualClassName":"Visual","version":"1.0.0","description":"Displays formatted static text alongside data.","supportUrl":"https://community.powerbi.com","gitHubUrl":"https://github.com/briemenschneider/FormattedTextDataArea"},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}

@@ -5,9 +5,9 @@ import VisualConstructorOptions = powerbiVisualsApi.extensibility.visual.VisualC
 var powerbiKey: any = "powerbi";
 var powerbi: any = window[powerbiKey];
 
-var formattedTextDataAreaB47E019733B04383B9E1AF9E1425C85E_DEBUG: IVisualPlugin = {
-    name: 'formattedTextDataAreaB47E019733B04383B9E1AF9E1425C85E_DEBUG',
-    displayName: 'FormattedTextDataArea',
+var formattedTextDataAreaB47E019733B04383B9E1AF9E1425C85E: IVisualPlugin = {
+    name: 'formattedTextDataAreaB47E019733B04383B9E1AF9E1425C85E',
+    displayName: 'Formatted Text and Data Area',
     class: 'Visual',
     apiVersion: '2.6.0',
     create: (options: VisualConstructorOptions) => {
@@ -23,7 +23,7 @@ var formattedTextDataAreaB47E019733B04383B9E1AF9E1425C85E_DEBUG: IVisualPlugin =
 if (typeof powerbi !== "undefined") {
     powerbi.visuals = powerbi.visuals || {};
     powerbi.visuals.plugins = powerbi.visuals.plugins || {};
-    powerbi.visuals.plugins["formattedTextDataAreaB47E019733B04383B9E1AF9E1425C85E_DEBUG"] = formattedTextDataAreaB47E019733B04383B9E1AF9E1425C85E_DEBUG;
+    powerbi.visuals.plugins["formattedTextDataAreaB47E019733B04383B9E1AF9E1425C85E"] = formattedTextDataAreaB47E019733B04383B9E1AF9E1425C85E;
 }
 
-export default formattedTextDataAreaB47E019733B04383B9E1AF9E1425C85E_DEBUG;
+export default formattedTextDataAreaB47E019733B04383B9E1AF9E1425C85E;
